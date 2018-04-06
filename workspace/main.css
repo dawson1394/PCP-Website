@@ -1,0 +1,305 @@
+/* This is the code that gives me a bit more control*/
+h2, p {
+    color: gray;
+}
+
+body {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto; 
+    background-color: black;
+}
+
+/* Title */
+.title {
+    font-size:40px;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    color: white;
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+/* Title End */
+
+/* Nav Bar */
+nav a, nav ul, nav ol, nav li, nav small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+  text-decoration: none;
+  font-family: 'Kalam', cursive;
+}
+
+nav {
+    width: 100%;
+    margin: 10px 0; 
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    width: 16.666%;
+    float: left;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 8px 0;
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: #373737;
+}
+
+nav ul li a:hover {
+    background-color: #202020;
+}
+
+nav ul li:first-child a {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+nav ul li:last-child a {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+/*Nav Bar End */
+
+/*Home Page*/
+.info1 {
+    color:gray;
+    float:right;
+    margin-top: 20px;
+}
+
+#homequote {
+    margin-top: 30px;
+}
+
+.LText a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.LText a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.LText a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+.LText a:active {
+    color: yellow;
+    background-color: transparent;
+}
+.computer {
+    width: 150px;
+}
+/* Home Page End */
+
+/* Store Page */
+#store {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 180px;
+}
+
+#store li {
+  position: relative;
+  float: left;
+  width: 20%;
+  min-height: 279px;
+  max-height: 279px;
+  margin: 2.5%;
+  color: #bdc3c7;
+  background-color: #373737;
+  text-align: center;
+}
+
+#store li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.85em;
+  color: #bdc3c7;
+}
+
+#store li p {
+    text-align: center;
+}
+
+#storeh2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.computer1, .computer2,.hardware1, .tools1, .headphones1, .storep {
+    text-align: center;
+}
+/* Store Page End */
+
+/* Location Page */
+#locationhead {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#locationh5 {
+    text-align: center;
+    color: white;
+}
+
+#location {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 180px;
+}
+
+#location li {
+    float: left;
+    width: 400px;
+    margin: 2.3%;
+    color: #bdc3c7;
+    background-color: #373737;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 50px;
+    min-height: 273px;
+    max-height: 273px;
+}
+
+#location li p {
+    text-align: center;
+    margin-left:10px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#location li a p {
+  margin: 0;
+  padding: 4%;
+  font-size: 0.85em;
+  color: #bdc3c7;
+  list-style: none;
+}
+
+.location1 {
+    text-align: center;
+    height: 233px;
+}
+
+.location2 {
+    text-align: center;
+}
+/* Location Page End */
+
+/* Contact Page */
+#contacth1 {
+    text-align: center;
+    margin-top: 60px;
+    color: gray;
+}
+
+#contactpara {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#contact {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 180px;
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+#contact li {
+    width: 250px;
+    margin: 2.3%;
+    color: #bdc3c7;
+    background-color: #373737;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 355px;
+    min-height: 250px;
+    max-height: 250px;
+    margin-bottom: 60px;
+}
+
+#contact li p {
+    text-align: center;
+    margin-left:10px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#contact li a p {
+  margin: 0;
+  padding: 4%;
+  font-size: 0.85em;
+  color: #bdc3c7;
+  list-style: none;
+}
+/* Content Page End */
+
+/* Credit Page */
+#credith2 {
+    margin-top: 70px;
+    font-size: 20px;
+    color: lightblue;
+}
+/* Credit Page End */
+
+/* Services Page */
+.services p {
+    margin-top: 60px;
+}
+
+.services li {
+    margin-left: 20px;
+    color: gray;
+}
+/* Services Page End */
+/* FOOTER */
+footer {
+    color: #b3ffec;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background: url(img/footerbackground.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 30px;
+    margin-bottom: 0px;
+}
+
+footer p {
+    margin-top: 6px;
+    margin-left: 5px;
+    float: left;
+}
+/* Footer End */
